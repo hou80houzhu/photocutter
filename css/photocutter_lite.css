@@ -1,0 +1,118 @@
+.photocutter{
+    position: relative;
+    min-width: 320px;
+    min-height: 320px;
+    padding: 0;
+    overflow: hidden;
+}
+.photocutter .toolcon{
+    height:60px;
+    position: absolute;
+    bottom: 5px;
+    left:0;
+    right:0;
+    text-align: center;
+}
+.photocutter .photocutter-welbtn{
+    position: relative;
+}
+.photocutter .photocutter-welbtn input{
+    position: absolute;
+    left:0;
+    top:0;
+    opacity: 0;
+}
+.toolcon .btn{
+    width:35px;
+    height:35px;
+    margin:5px;
+    border:1px solid #E8E7E8;
+    -webkit-border-radius: 3px;
+    -webkit-transition: all 0.3s ease;
+    overflow: hidden;
+    display: inline-block;
+}
+.toolcon .pcbtn:hover{
+    background-color:#E3E3E3;
+}
+.toolcon .pcbtn:active{
+    background-color:#BFBFBF;
+}
+.toolcon .pcbtn2{
+    overflow:hidden;
+    display: inline-block;
+    position: relative;
+}
+.toolcon .pcbtn2 .pcbtntxt{
+    width:35px;
+    height:35px;
+    background:url(../images/open.png) no-repeat center;
+}
+.toolcon .pcbtn2 .pcbtninput{
+    cursor: pointer;
+    width:35px;
+    height:35px;
+    display: block;
+    opacity: 0;
+    position: absolute;
+    left:0;
+    top:0;
+    right:0;
+    bottom: 0;
+}
+
+.toolcon .open{
+    background:url(../images/open.png) no-repeat center white;
+}
+
+.toolcon .redo{
+    background:url(../images/redo.png) no-repeat center white;
+}
+.toolcon .download{
+    background:url(../images/download.png) no-repeat center white;
+}
+.toolcon .reset{
+    background:url(../images/reset.png) no-repeat center white;
+}
+.toolcon .rotateleft{
+    background:url(../images/rotateleft.png) no-repeat center white;
+}
+.toolcon .rotateright{
+    background:url(../images/rotateright.png) no-repeat center white;
+}
+.toolcon .zoomin{
+    background:url(../images/zoomin.png) no-repeat center white;
+}
+.toolcon .zoomout{
+    background:url(../images/zoomout.png) no-repeat center white;
+}
+.toolcon .upload{
+    background:url(../images/upload.png) no-repeat center white;
+}
+.toolcon .info{
+    background:url(../images/info.png) no-repeat center white;
+}
+.photocuttercon .download{
+    background:url(../images/download.png) no-repeat center white;
+}
+
+.photocutter-alert{
+    padding:10px;
+    position: absolute;
+    left:5px;
+    top:5px;
+    right:5px;
+    background:rgba(252,248,227,0.9);
+    border:1px solid #FBEED5;
+    text-align: center;
+    display: none;
+    font-size:14px;
+}
+.photocutter-progress{
+    position: absolute;
+    left:0;
+    top:0;
+    right:0;
+    padding:10px;
+    display: none;
+}
