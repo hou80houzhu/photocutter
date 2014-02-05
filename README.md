@@ -6,4 +6,4 @@ A javascript plugin to cut photo with html canvas.
 
 demo picture:
 
-<img src='http://v2.freep.cn/3tb_140205223944nf2g512293.png' alt='photocutter'>
+<img src='https://github.com/hou80houzhu/photocutter/raw/master/demo.png' alt='photocutter'>
